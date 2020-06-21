@@ -6,10 +6,16 @@ import { environment } from '../environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GameTableComponent } from './game-table/game-table.component';
+import { MainComponent } from './main/main.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GameTableComponent,
+    MainComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
